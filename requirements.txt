@@ -1,0 +1,9 @@
+# Dependencias para ejecutar el notebook. Las versiones de la ejecución verificada
+# se registran en resultados/entorno.json.
+pandas>=2.0
+numpy>=1.26
+scikit-learn>=1.7
+matplotlib>=3.8
+ipykernel>=6.0
+threadpoolctl>=3.0
+jupyterlab>=4.0
