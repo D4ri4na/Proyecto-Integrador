@@ -1,0 +1,48 @@
+# Datasets descargados o generados localmente (no subir datos crudos)
+dataset/
+Proyecto-Integrador/
+datos_actualizados/
+**/tmdb_5000_movies.csv
+**/tmdb_5000_credits.csv
+*.partial.csv
+
+# Credenciales y secretos (TMDb, tokens, claves)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# Entornos, cachés y archivos temporales
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.qa/
+*.log
+Thumbs.db
+.DS_Store
+
+# Resultados regenerables del notebook y experimentos auxiliares
+resultados/
+experimentos/resultados_*/
+*.joblib
+*.pkl
+*.pickle
+*.parquet
+*.feather
+*.sqlite
+*.db
+
+# No versionar repositorios Git anidados
+**/.git/
+
+# Documentación Markdown: conservar solo el README principal
+*.md
+!README.md
